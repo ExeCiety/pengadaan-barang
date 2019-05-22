@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/colorLightSalmon"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <Button
+                android:id="@+id/btn_tbarang"
+                android:layout_marginBottom="10dp"
+                android:layout_width="160dp"
+                android:layout_height="100dp"
+                android:background="@color/colorTomato"
+                android:textColor="#fff"
+                android:layout_alignParentLeft="true"
+                android:textSize="18sp"
+                android:text="Tambah Barang"/>
+
+            <Button
+                android:id="@+id/btn_tpbarang"
+                android:layout_marginBottom="10dp"
+                android:layout_width="160dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/colorTomato"
+                android:textColor="#fff"
+                android:layout_alignParentEnd="true"
+                android:textSize="18sp"
+                android:text="Tambah Pengadaan Barang"/>
+
+            <Button
+                android:id="@+id/btn_lbarang"
+                android:layout_marginBottom="10dp"
+                android:layout_width="160dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/colorTomato"
+                android:textColor="#fff"
+                android:layout_below="@+id/btn_tpbarang"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentLeft="true"
+                android:textSize="18sp"
+                android:text="List Barang"/>
+
+            <Button
+                android:id="@+id/btn_lpbarang"
+                android:layout_marginBottom="10dp"
+                android:layout_width="160dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/colorTomato"
+                android:textColor="#fff"
+                android:layout_below="@+id/btn_tpbarang"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentEnd="true"
+                android:textSize="18sp"
+                android:text="List Pengadaan Barang"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+</LinearLayout>
